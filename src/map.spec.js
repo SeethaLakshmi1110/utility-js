@@ -1,7 +1,7 @@
 const map = require('./map');
 
 describe('Map', () => {
-    it('Map of an empty list with any function called should return null', () => {
+    it('Map of an empty list with any function called should return empty list', () => {
         const cube = (value) => value * value * value;
         expect(map([], cube)).toEqual([]);
     });
