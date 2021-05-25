@@ -1,6 +1,6 @@
 const max = require('./max');
 
-describe('Add', () => {
+describe('Max', () => {
 
     it('Max of an empty list is null', () => {
         expect(max([])).toBe(null);
