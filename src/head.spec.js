@@ -6,7 +6,7 @@ describe('Head', () => {
         expect(head([])).toBe(null);
     });
 
-    it('Head of (1, 2, 3) is 1', () => {
+    it('Head of [1, 2, 3] is 1', () => {
         expect(head([1, 2, 3])).toEqual(1);
     });
 
